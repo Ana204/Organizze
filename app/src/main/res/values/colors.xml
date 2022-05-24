@@ -5,13 +5,17 @@
     <color name="colorPrimaryVariant">#4c81c2</color>
     <color name="colorOnPrimary">#5a51e5</color>
 
-    <color name="colorOnSecondary">#00B6FF</color>
-    <color name="colorSecondary">#FF03DAC5</color>
-    <color name="colorSecondaryVariant">#FF018786</color>
+    <color name="colorOnSecondary">#ff6d00</color>
+    <color name="colorSecondary">#c43c00</color>
+    <color name="colorSecondaryVariant">#FF9800</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#5D6163</color>
+    <color name="cyan">#00B6FF</color>
+    <color name="cyan_500">#FF03DAC5</color>
+    <color name="teal">#FF018786</color>
+
 
 
 
