@@ -2,6 +2,7 @@ package br.com.organizze;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,6 +11,9 @@ import android.widget.Toast;
 
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
+
+import br.com.organizze.Activity.LoginActivity;
+import br.com.organizze.Activity.RegisterAccountActivity;
 
 public class MainActivity extends IntroActivity {
 
@@ -59,10 +63,10 @@ public class MainActivity extends IntroActivity {
 
 
     public void buttonAccount(View view){
-        Toast.makeText(this, "Já tenho conta CLICK", Toast.LENGTH_SHORT).show();
+       startActivity(new Intent(this, LoginActivity.class));
     }
 
     public void buttonRegister(View view){
-
+        startActivity(new Intent(this, RegisterAccountActivity.class));
     }
 }
