@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "228064615181",
-    "project_id": "organizze-ad8a1",
-    "storage_bucket": "organizze-ad8a1.appspot.com"
+    "project_number": "960129991652",
+    "project_id": "apporganizze-85cfb",
+    "storage_bucket": "apporganizze-85cfb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:228064615181:android:4a1e6b9ef2b9734ce2ee44",
+        "mobilesdk_app_id": "1:960129991652:android:7d9a7104c9193e11b47df1",
         "android_client_info": {
           "package_name": "br.com.organizze"
         }
       },
       "oauth_client": [
         {
-          "client_id": "228064615181-pv5cmcs853eglenia44lsj796b8th6na.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "br.com.organizze",
-            "certificate_hash": "0ccf3470d82819b25cfaa115fe2617b09d209169"
-          }
-        },
-        {
-          "client_id": "228064615181-m47je62covl0mitk3nsqvq3blttephgr.apps.googleusercontent.com",
+          "client_id": "960129991652-ljfq26ijr6t0r8d54k54p7didgm6bcnu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCrtcxq_bY7uD5G7UnsJOxZtgrsFKFfrmQ"
+          "current_key": "AIzaSyAHpLFSKwUcKvRPJnH5FmIsV_z6hBImxW4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "228064615181-m47je62covl0mitk3nsqvq3blttephgr.apps.googleusercontent.com",
+              "client_id": "960129991652-ljfq26ijr6t0r8d54k54p7didgm6bcnu.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

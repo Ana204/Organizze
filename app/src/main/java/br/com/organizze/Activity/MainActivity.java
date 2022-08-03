@@ -1,4 +1,4 @@
-package br.com.organizze;
+package br.com.organizze.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,6 +14,7 @@ import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
 
 import br.com.organizze.Activity.LoginActivity;
 import br.com.organizze.Activity.RegisterAccountActivity;
+import br.com.organizze.R;
 
 public class MainActivity extends IntroActivity {
 

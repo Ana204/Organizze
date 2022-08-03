@@ -21,8 +21,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,32 +31,47 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
+            android:id="@+id/textName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
             android:drawableStart="@drawable/ic_baseline_person"
+            android:drawablePadding="5dp"
             android:hint="Nome" />
 
         <EditText
+            android:id="@+id/textEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
             android:drawableStart="@drawable/ic_baseline_email"
+            android:drawablePadding="5dp"
             android:hint="Email"
             android:inputType="textEmailAddress" />
 
         <EditText
+            android:id="@+id/textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
             android:drawableStart="@drawable/ic_baseline_lock"
+            android:drawablePadding="5dp"
             android:hint="Senha"
             android:inputType="textPassword" />
 
 
         <Button
+            android:id="@+id/buttonRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
             android:text="Cadastrar"
             android:textColor="@color/white" />
 
